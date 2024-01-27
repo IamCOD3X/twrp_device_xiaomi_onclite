@@ -32,6 +32,7 @@ system_ext                                      /system_ext             ext4    
 product                                         /product                ext4             ro,barrier=1,discard 					  wait,logical
 vendor                                          /vendor                 ext4             ro,barrier=1,discard 					  wait,logical
 odm                                             /odm                    ext4             ro,barrier=1,discard 				          wait,logical
+/dev/block/bootdevice/by-name/oem 		/metadata 	        ext4             nosuid,nodev,noatime,discard 			          wait,check,formattable
 /dev/block/bootdevice/by-name/config            /frp			emmc	    defaults							        defaults
 /dev/block/bootdevice/by-name/misc              /misc		    	emmc	    defaults						             	defaults
 

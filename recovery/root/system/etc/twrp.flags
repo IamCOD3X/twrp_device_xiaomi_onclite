@@ -10,6 +10,7 @@ system_ext     /system_ext    ext4      ro,barrier=1,discard                    
 product        /product       ext4      ro,barrier=1,discard                     wait,logical
 vendor         /vendor        ext4      ro,barrier=1,discard                     wait,logical
 odm            /odm           ext4      ro,barrier=1,discard                     wait,logical
+/metadata       ext4   /dev/block/bootdevice/by-name/oem                         flags=display="Metadata";fsflags="discard";wipeingui
 
 # Cache
 /cache          ext4    /dev/block/bootdevice/by-name/cache                     flags=display="Cache";fsflags="discard";backup=0;advbackup=1;wipeingui;wipeduringfactoryreset
