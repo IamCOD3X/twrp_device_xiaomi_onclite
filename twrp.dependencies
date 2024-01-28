@@ -1,7 +1,7 @@
 [
     {
         "remote"        :   "github",
-        "repository"    :   "CraftRom/recovery_kernel_xiaomi_onclite",
+        "repository"    :   "IamCOD3X/recovery_kernel_xiaomi_onclite",
         "target_path"   :   "kernel/xiaomi/onclite",
         "revision"      :   "fox_12.1"
     }
